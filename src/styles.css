@@ -1,20 +1,39 @@
+/* Ensure no margins and full height */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  height: 100%; /* Ensure the App takes full height */
+}
+
+.day, .night {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .day {
   background-image: url("./images/day.gif");
-  background-size: contain;
   color: black;
-  height: 100vh;
 }
 
 .night {
   background-image: url("./images/night.gif");
-  background-size: contain;
   color: white;
-  height: 100vh;
 }
 
 /* Styling toggle for button */
@@ -22,7 +41,7 @@
   font-size: 17px;
   position: relative;
   display: inline-block;
-  width: 3.5em;
+  width: 3.8em;
   height: 2em;
 }
 
