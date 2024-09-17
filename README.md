@@ -8,13 +8,6 @@ A simple React app that allows users to toggle between Day and Night modes with 
 - **Dynamic Styling**: Background and text colors update automatically based on the mode.
 - **Custom Styled Toggle**: The toggle switch has a smooth animation with custom CSS.
 
-## Screenshots
-
-### Day Mode
-![Day Mode](./screenshots/day-mode.png)
-
-### Night Mode
-![Night Mode](./screenshots/night-mode.png)
 
 ## Technologies Used
 
@@ -27,9 +20,15 @@ A simple React app that allows users to toggle between Day and Night modes with 
 
 - [Node.js](https://nodejs.org/) installed on your machine.
 
-### Installation
+## Installation and Run
+To run this project locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/day-night-toggle-app.git
-   cd day-night-toggle-app
+Clone the Repository Download the project files to your local machine using Git or directly from the source.
+
+Navigate to the Project Directory Open a terminal and use the cd command to navigate to the root directory of the project.
+
+Install Dependencies Run npm install in the terminal to automatically install all required packages and dependencies.
+
+Launch the Application Once the installation is complete, start the development server with the command npm start.
+
+View in Browser Open your web browser and go to http://localhost:3000/ to interact with the application.
